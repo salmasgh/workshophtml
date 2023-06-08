@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>acceuil</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header style="border-style: solid">
+      <h1>header</h1>
+      <table>
+        <tr>
+          <td><img src="logo.png" alt="img" width="10%" height="10%" /></td>
+          <td>
+            <table>
+              <tr>
+                <ul>
+                  <td>
+                    <li><a href="#">Home</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#">About</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#">Contact</a></li>
+                  </td>
+                </ul>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <!-- main -->
+    <main style="border-style: solid">
+      <h1>main</h1>
+      <section>
+        <h2>home</h2>
+        <div style="border-style: solid; border-color: red">
+          <img src="logo.png" alt="img" width="10%" height="10%" />
+          <p>description logo</p>
+        </div>
+      </section>
+      <section>
+        <h2>About</h2>
+        <ol>
+          <li>Name: Wissem</li>
+          <li>LastName: ZITOUNI</li>
+          <li>Academy Background: Bac-1</li>
+        </ol>
+        <iframe
+          width="395"
+          height="222"
+          src="https://www.youtube.com/embed/Y6Rc53Sa9w4"
+          title="مسلسل شوفلي حل - الموسم 2009 - الحلقة الثالثة"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer style="border-style: solid">
+      <h1>footer</h1>
+      <section>
+        <form action="welcome.html">
+          <legend>contact</legend>
+          <table>
+            <tr>
+              <td>
+                <label>name</label>
+              </td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td><label>adresse</label></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td><label>email</label></td>
+              <td><input type="email" placeholder="exemple@gmail.com" /></td>
+            </tr>
+            <tr>
+              <td><label> commentaire</label></td>
+              <td>
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="inserer un commentaire"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="submit" value="hello" /></td>
+              <td><input type="reset" value="goodbye" /></td>
+            </tr>
+          </table>
+          <section>
+            <select>
+              <option value="">choisisez un cours</option>
+              <option value="1">web1</option>
+              <option value="2">web2</option>
+              <option value="3">web3</option>
+            </select>
+          </section>
+
+          GENRE : <label name="genre">femme :</label>
+          <input type="radio" name="genre" />
+          <label name="genre">homme :</label>
+          <input type="radio" name="genre" />
+          <br />
+          cours :
+          <label for="">web1</label> <input type="checkbox" />
+          <label for="">web2</label><input type="checkbox" />
+          <label for="">web3</label><input type="checkbox" />
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
